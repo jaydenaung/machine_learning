@@ -6,6 +6,7 @@ Friend Finder is a simple machine learning demo that uses **facenet-pytorch** to
 - Predict whether the person is your friend or not, with a confidence score
 
 ## 📂 Project Structure
+```bash
 friend_finder/
 │
 ├── train_friend_id_torch.py # Train the friend embedding & threshold
@@ -15,7 +16,7 @@ friend_finder/
 └── data/
 ├── friend/ # images of your friend (≥ 8 images)
 └── not_friend/ # images of other people (≥ 20 images)
-
+```
 
 ## ⚙️ Setup
 
