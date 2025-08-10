@@ -1,0 +1,26 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python cache & build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Ignore venv
+venv/
+
+# Ignore dataset folders
+jayden_ml_demo_app_1/data/wife/
+jayden_ml_demo_app_1/data/not_wife/
+
+# Optional: ignore all images
+*.jpg
+*.jpeg
+*.png
+*.gif
+
